@@ -1,0 +1,20 @@
+humboldt_cities = {
+    "Crescent City": [("Trinidad", 71), ("Grants Pass", 83)],
+    "Trinidad": [("Crescent City", 71), ("McKinleyville", 10)],
+    "McKinleyville": [("Trinidad", 10), ("Arcata", 7), ("Eureka", 14)],
+    "Arcata": [("McKinleyville", 7), ("Eureka", 8), ("Willow Creek", 40)],
+    "Eureka": [("McKinleyville", 14), ("Arcata", 8), ("Fortuna", 18), ("Ukiah", 138)],
+    "Fortuna": [("Eureka", 18), ("Rio Dell", 10)],
+    "Rio Dell": [("Fortuna", 10), ("Garberville", 42)],
+    "Garberville": [("Rio Dell", 42), ("Redway", 3)],
+    "Redway": [("Garberville", 3), ("Santa Rosa", 155), ("Sacramento", 155)],
+    "Santa Rosa": [("Ukiah", 60), ("San Francisco", 55), ("Redway", 155)],
+    "San Francisco": [("Santa Rosa", 55), ("Sacramento", 101)],
+    "Ukiah": [("Eureka", 138), ("Santa Rosa", 60)],
+    "Willow Creek": [("Arcata", 40), ("Redding", 100)],
+    "Redding": [("Willow Creek", 100), ("Chico", 72), ("Medford", 150)],
+    "Chico": [("Redding", 72), ("Sacramento", 109)],
+    "Sacramento": [("Chico", 109), ("San Francisco", 101), ("Redway", 155)],
+    "Grants Pass": [("Crescent City", 83), ("Medford", 30)],
+    "Medford": [("Grants Pass", 30), ("Redding", 150)]
+}
